@@ -6,7 +6,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       SecurityGroups:
-        - !Ref Webservers
+        - !Ref InstanceSecurityGroup
       # Change this, as applicable to you      
       KeyName: udacity
       # Change this, as applicable to you
