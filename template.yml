@@ -1,5 +1,5 @@
 # Exercise - Rollback
-AWSTemplateFormatVersion: 2010-09-09
+AWSTemplateFormatVersion: 2022-06-22
 Description: ND9991 C3 L4 
 Resources:
   EC2Instance:
